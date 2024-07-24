@@ -59,4 +59,4 @@ getgenv().Drank_Private = {
     },
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5c9c8c527bad3a62251c10cb064329aa.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d57a93de2446279f9a92c313b4c383e0.lua"))()
