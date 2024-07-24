@@ -1,0 +1,62 @@
+-- // Fully Coded By @ avsavxavxavsavxavx / kyzo
+-- // Drank_Private -- // Drank_Private -- // Drank_Private
+-- // Drank_Private -- // Drank_Private -- // Drank_Private
+-- // Drank_Private -- // Drank_Private -- // Drank_Private
+-- // Drank_Private -- // Drank_Private -- // Drank_Private
+
+
+script_key="keyhere";
+getgenv().Drank_Private = {
+    Silent = {
+        ["Enabled"] = true,
+        ["Prediction"] = 0.121,
+        ["Keybind"] = Enum.KeyCode.P,
+        ["WallCheck"] = true,
+        ["Part"] = "HumanoidRootPart",
+        ["Nearest"] = true,
+        ["Resolver"] = true,
+        ["Air Prediction"] = 0.123,
+        ["PredictMovement"] = true,
+        ['FieldOfView'] = {
+            ["FOV"] = true,
+            ["UseFOV"] = true,
+            ["Radius"] = 150,
+            ["FovThickness"] = 2,
+            ["FovTransparency"] = 0.2,
+            ["Color"] = Color3.fromRGB(0,0,0),
+            ["Filled"] = true,
+            ["Rainbow"] = false,
+        },
+    },
+    Camlock = {
+        ["Keybind"] = Enum.KeyCode.C,
+        ["PredX"] = 0.123,
+        ["PredY"] = 0.05, 
+        ["Part"] = "HumanoidRootPart",
+        ["SmoothingValue"] = 0.1,
+        ["Shake"] = 0.1, 
+        ["AirCheck"] = true,
+        ["Resolver"] = true,
+        ["UseCircleRadius"] = false,
+        ["UnlockOnTargetDeath"] = true,
+        ["UnlockOnOwnDeath"] = true,
+        ["Air Smoothing"] = 0.1,
+    },
+    Visuals = {
+        ["Tracer"] = false, -- // For Silent Aim
+    },
+    Miscellaneous = {
+        ["Game Crash"] = { -- // Only Affects YOUR Game
+            ["Enabled"] = false,
+            ["Type"] = "Legit",  -- // Only "Legit" For Now
+            ["Keybind"] = Enum.KeyCode.C,
+        },
+        ['Textures'] = {
+            ['Enabled'] = true,
+            ['Material'] = 'Brick', -- // ForceField , Brick , And More Leave False If You Dont Know What Your Doing
+            ['Color'] = Color3.fromRGB(255, 198, 254),
+        },
+    },
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5c9c8c527bad3a62251c10cb064329aa.lua"))()
