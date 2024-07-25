@@ -53,7 +53,7 @@ getgenv().Drank_Private = {
         },
         ['Textures'] = {
             ['Enabled'] = true,
-            ['Material'] = 'Brick', -- // ForceField , Brick , And More Leave False If You Dont Know What Your Doing
+            ['Material'] = 'Brick', -- // https://roblox.fandom.com/wiki/Material
             ['Color'] = Color3.fromRGB(255, 198, 254),
         },
     },
